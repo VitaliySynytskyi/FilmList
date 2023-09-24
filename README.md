@@ -8,7 +8,6 @@ FilmList is a simple web application built with Flask and MongoDB that allows yo
 - [Usage](#usage)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-
 ## Installation
 
 1. **Clone the Repository**:
@@ -23,13 +22,20 @@ FilmList is a simple web application built with Flask and MongoDB that allows yo
    cd FilmList
    ```
 
-3. **Install Dependencies**:
+3. **Create and Activate a Python Virtual Environment**:
+
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate
+   ```
+
+4. **Install Dependencies**:
 
    ```bash
    pip install -r requirements.txt
    ```
 
-4. **Set Up MongoDB**:
+5. **Set Up MongoDB**:
 
    - Install MongoDB and start the MongoDB server.
    - Update the MongoDB connection URL in `app.py` to match your MongoDB setup:
